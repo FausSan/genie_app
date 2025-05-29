@@ -1,0 +1,8 @@
+db-dtypes
+faiss-cpu
+Jinja2
+pandas
+Pillow
+streamlit-drawable-canvas
+streamlit
+sentencepiece
