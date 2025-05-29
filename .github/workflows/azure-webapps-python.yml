@@ -1,8 +1,8 @@
 name: Build and deploy Streamlit app to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: genie-app  # Replace with your Azure Web App name
-  PYTHON_VERSION: '3.9'        # Replace with your desired Python version
+  AZURE_WEBAPP_NAME: AzureGenie
+  PYTHON_VERSION: '3.12'     
 
 on:
   push:
