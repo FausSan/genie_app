@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
+
 
       - name: Create and activate virtual environment
         run: |
