@@ -6,9 +6,9 @@ import os
 from PIL import Image
 
 # Azure App Service Configuration
-DATABRICKS_INSTANCE = os.getenv("DATABRICKS_INSTANCE", "adb-3343959754742015.15.azuredatabricks.net")
-SPACE_ID = os.getenv("GENIE_SPACE_ID", "01f0380239b4135882f1046c446923d3")
-AUTH_TOKEN = os.getenv("DATABRICKS_TOKEN", "Bearer dapi5c18015fe23b6de06854ab505bb61755-3")
+DATABRICKS_INSTANCE = "adb-3343959754742015.15.azuredatabricks.net"
+SPACE_ID = "01f0380239b4135882f1046c446923d3"
+AUTH_TOKEN = "Bearer dapi5c18015fe23b6de06854ab505bb61755-3"
 
 # Ensure token has Bearer prefix
 if not AUTH_TOKEN.startswith("Bearer "):
